@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+}
+.card {
+  border: 1px solid hsla(0, 0%, 30%, 0.877);
+  border-radius: 23px;
+  text-align: center;
+  padding:10px;
+  max-width: 230px;
+  max-height: none;
+  margin-top: 20px;
+  margin-right: 12px;
+  margin-left: auto; 
+  cursor: pointer;
+  transition: background-color 2s;
+
+}
+
+.dog-card {
+
+  border: 1px solid hsla(0, 0%, 30%, 0.877);
+  border-radius: 23px;
+  text-align: center;
+  padding:10px;
+  max-width: 230px;
+  max-height: none;
+  margin-top: 20px;
+  margin-right:12px;
+  margin-left: auto; 
+  cursor: pointer;
+  transition: background-color 2s;
+
+}
+
+.dog-card, .card {
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.dog-image {
+
+  border: 1px solid rgb(115, 104, 104);
+  border-radius: 23px;
+  height: 150px;
+  width: 180px;
+  margin-bottom:25px;
+ 
+
+}
+
+.card .card-image  {
+  border: 1px solid rgb(115, 104, 104);
+  border-radius: 23px;
+  height: 150px;
+  width: 180px;
+  margin-bottom:25px;
+ 
+}
+
+.panda-card {
+
+  border: 1px solid hsla(0, 0%, 30%, 0.877);
+  border-radius: 23px;
+  text-align: center;
+  padding:10px;
+  max-width: 230px;
+  max-height: none;
+  margin-top: 20px;
+  margin-right:auto;
+  margin-left: auto; 
+  cursor: pointer;
+  transition: background-color 2s;
+
+}
+.panda-card, .card {
+  display: inline-block;
+  margin-left: 1%;
+
+}
+
+.panda-image {
+
+  border: 1px solid rgb(115, 104, 104);
+  border-radius: 23px;
+  height: 150px;
+  width: 180px;
+  margin-bottom:25px;
+
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:lighter;
+}
+
+.card:hover {
+  background-color: rgba(134, 124, 124, 0.888);
+  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
+  color: white;
+  transform: scale(1.1);
+  transition: transform 6.6 ease;
+  
+}
+
+.dog-card:hover {
+
+  background-color: rgba(134, 124, 124, 0.888);
+  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.2 ease;
+
+}
+
+.panda-card:hover {
+
+  background-color: rgba(134, 124, 124, 0.888);
+  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.2 ease;
+
+}
+
+.text-cat {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+
+}
+
+#header-color {
+
+   background-color: rgba(134, 124, 124, 0.629);
+   border: 2px solid rgb(160, 141, 141);
+   margin-left: auto;
+   margin-bottom: auto;
+  
+  
+}
+
+header {
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+a {
+  float: left;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:larger;
+  text-decoration: none;  
+  color:white;
+
+}
+
+ul, li {
+  display: inline-block;
+  margin-right: 50px;
+  list-style: none;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+a:hover {
+  
+  text-decoration-thickness: 3px;
+  display: inline-block;
+
+   
+  background-color: rgb(146, 120, 120);
+}
+
+a:focus {
+  box-shadow: 3px 3px 3px rgba(69, 51, 51, 1); 
+  transform: scale(1.2);
+  transition: transform 0.2 ease;
+  
+}
+
+.underline {
+  margin-top: 85%;
+}
+
+.logo-image {
+  border: 2px solid rgb(105, 93, 93);
+  margin: 0;
+  max-height:50px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.logo-image:hover {
+  box-shadow: 4px 4px 4px rgb(156, 137, 137);
+}
+
+.logo-image:active {
+  opacity: 0.5;
+
+}
+
+.header-about {
+
+background-color: red;
+width: 100%;
+
+
+}
