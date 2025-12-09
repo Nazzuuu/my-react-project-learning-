@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
 }
 .card {
   border: 1px solid hsla(0, 0%, 30%, 0.877);
@@ -55,6 +56,19 @@ body {
   width: 180px;
   margin-bottom:25px;
  
+}
+
+
+#card-section {
+
+  scroll-margin-top: 140px;
+
+}
+
+.card, .dog-card, .panda-card {
+
+  margin-top: 40px;
+  margin-bottom: 900px;
 }
 
 .panda-card {
@@ -122,11 +136,6 @@ p {
 
 }
 
-.text-cat {
-  font-family:'Times New Roman', Times, serif;
-  margin: 0;
-
-}
 
 #header-color {
 
@@ -153,6 +162,7 @@ a {
   font-size:larger;
   text-decoration: none;  
   color:white;
+
 
 }
 
@@ -203,10 +213,71 @@ a:focus {
 
 }
 
-.header-about {
 
-background-color: red;
-width: 100%;
+.about-section {
 
+  display: flex; 
+  flex-wrap: wrap;
+  background-color: rgba(168, 137, 137, 0.629);
+  padding: 18px;
+  color: white;
+  margin-top: 0;
+  scroll-margin-top: 86px;
+}
+
+.about-section h1 {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15em;
+    color: white;
+}
+
+.about-page {
+
+  border: 1px solid white;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-page:hover {
+
+  background-color:rgba(128, 109, 109, 0.629);
 
 }
+
+.about-page:active {
+  opacity: 0.7;
+}
+
+
+.about-text-content {
+
+    width: 70%; 
+    padding-right: 20px;
+    margin-left: 66px;
+}
+
+#cat-dogs {
+
+    border-radius: 10px;
+    width: 30%; 
+    max-width: 250px; 
+    height: auto;
+    object-fit: cover;
+    margin-top: -5em;
+    margin-left: 3em;
+    opacity: 0.8;
+
+}
+
+
+
+.text-cat, .text-panda, .text-dog {
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+
+}
+

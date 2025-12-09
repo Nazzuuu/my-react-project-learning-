@@ -13,9 +13,15 @@ function Header({ ClickmoHome}) {
             
           <ul>
           
-            <li><a href="#" id="home-click" onClick={(e) => {e.preventDefault(); ClickmoHome();}}>Home Page</a></li>
-            <li><a href="#" id="about-click">About</a></li>
-            <li><a href="#" id = "service-click"> Services</a></li>
+            <li><a href="#" id="home-click" onClick={(e) => {e.preventDefault();
+               
+               ClickmoHome();document.getElementById('card-section').scrollIntoView({behavior:"smooth"});}}>Home Page</a></li>
+
+            <li><a href="#" id="about-click"onClick={(e) => {e.preventDefault();
+               document.getElementById('about-section').scrollIntoView
+               ({behavior:"smooth",block:"start"});}}>About</a></li>
+
+            <li><a href="" id = "service-click"> Services</a></li>
             <li><a href="#">Contact</a></li>
 
           </ul>
@@ -23,12 +29,7 @@ function Header({ ClickmoHome}) {
         </nav>       
      </header>
 
-     {/* <div className="header-about">
-         <nav>
-          <p><span id = "text-abouts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rerum consectetur similique ab eligendi ipsa cupiditate illum? Vel veritatis ipsum praesentium incidunt expedita dolorem voluptates repellat, excepturi, adipisci recusandae qui.</span></p>
-        </nav>
-      </div>    */}
-      
+ 
    </>
 
   );

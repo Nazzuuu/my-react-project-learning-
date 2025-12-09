@@ -1,5 +1,5 @@
 import { useState } from "react"
-import CatCard from "./CatCard"
+import Cardss from "./Cardss"
 import Header from "./header"
 import Footer from "./Footer"
 
@@ -8,7 +8,6 @@ function App() {
  
  const [isHome, setIsVisible] = useState(false);
  const handleToggle = () => setIsVisible(true);
- const [view,setView] = useState("home");
 
 
   
@@ -19,10 +18,10 @@ function App() {
         ClickmoAbout={() => setView("about")} 
       />
 
-      {isHome && <CatCard />} 
+      {isHome && <Cardss />} 
       {isHome && <Footer/>}
    
-
+     
     </>
   );
   
