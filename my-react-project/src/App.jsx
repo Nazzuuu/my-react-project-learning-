@@ -10,6 +10,7 @@ function App() {
  const handleToggle = () => setIsVisible(true);
 
 
+
   
   return(
     <>
@@ -21,7 +22,7 @@ function App() {
       {isHome && <Cardss />} 
       {isHome && <Footer/>}
    
-     
+      
     </>
   );
   

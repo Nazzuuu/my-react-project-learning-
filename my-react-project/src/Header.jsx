@@ -13,9 +13,9 @@ function Header({ ClickmoHome}) {
             
           <ul>
           
-            <li><a href="#" id="home-click" onClick={(e) => {e.preventDefault();
-               
-               ClickmoHome();document.getElementById('card-section').scrollIntoView({behavior:"smooth"});}}>Home Page</a></li>
+            <li><a href="#" id="home-click" onClick={(e) => {e.preventDefault();      
+               ClickmoHome();document.getElementById('card-section').scrollIntoView
+               ({behavior:"smooth"});}}>Home Page</a></li>
 
             <li><a href="#" id="about-click"onClick={(e) => {e.preventDefault();
                document.getElementById('about-section').scrollIntoView
