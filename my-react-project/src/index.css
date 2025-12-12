@@ -78,6 +78,15 @@ body {
 
 }
 
+.dog-card:hover {
+
+  background-color: rgba(134, 124, 124, 0.888);
+  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
+  color: white;
+
+
+}
+
 
 .card, .dog-card, .panda-card {
 
@@ -94,7 +103,7 @@ body {
   max-width: 230px;
   max-height: none;
   margin-top: 20px;
-  margin-right:auto;
+  margin-right:12px;
   margin-left: auto; 
   cursor: pointer;
   transition: background-color 2s;
@@ -116,21 +125,6 @@ body {
 
 }
 
-p {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight:lighter;
-}
-
-
-.dog-card:hover {
-
-  background-color: rgba(134, 124, 124, 0.888);
-  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
-  color: white;
-
-
-}
-
 .panda-card:hover {
 
   background-color: rgba(134, 124, 124, 0.888);
@@ -138,6 +132,53 @@ p {
   color: white;
 
 
+}
+
+
+.hamster-card {
+
+  border: 1px solid hsla(0, 0%, 30%, 0.877);
+  border-radius: 23px;
+  text-align: center;
+  padding:10px;
+  max-width: 230px;
+  max-height: none;
+  margin-top: 20px;
+  margin-right:auto;
+  margin-left: auto; 
+  cursor: pointer;
+  transition: background-color 2s;
+
+}
+
+.hamster-card, .card {
+
+  display: inline-block;
+  margin-left: 1%;
+
+}
+
+.hamster-image {
+
+  border: 1px solid rgb(115, 104, 104);
+  border-radius: 23px;
+  height: 150px;
+  width: 180px;
+  margin-bottom:25px;
+
+}
+
+.hamster-card:hover {
+
+  background-color: rgba(134, 124, 124, 0.888);
+  box-shadow: 7px 7px 7px rgba(59, 58, 58, 0.463);
+  color: white;
+}
+
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:lighter;
 }
 
 
@@ -279,8 +320,6 @@ a:focus {
     opacity: 0.8;
 
 }
-
-
 
 .text-cat, .text-panda, .text-dog {
 

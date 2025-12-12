@@ -3,6 +3,7 @@ import catImage from './assets/cat.jpg'
 import dogImage from './assets/dog.jpg'
 import pandaImage from './assets/pandass.jpg'
 import catdogss from './assets/catdogs.jpg'
+import hamstersu from './assets/hamster.jpg'
 
 
 function Cardss () {
@@ -21,11 +22,13 @@ function Cardss () {
         const catRef = useRef(null);
         const dogRef = useRef(null);
         const pandaRef = useRef(null);
+        const hamsterRef = useRef(null);
 
 
-        const [rotationCat, setRotationCat] = useState(0);
-        const [rotationDog, setRotationDog] = useState(0);
-        const [rotationPanda, setRotationPanda] = useState(0);
+        const [Catsus, setRotationCat] = useState(0);
+        const [Dogsus, setRotationDog] = useState(0);
+        const [Pandasus, setRotationPanda] = useState(0);
+        const [Hmastersus, setRotationHamster] = useState(0);
 
         const rotate = (cardRef, rotation, setRotation) => {
         const card = cardRef.current;
@@ -33,19 +36,21 @@ function Cardss () {
         card.style.transform = `rotateY(${newRotation}deg) scale(1)`;
         card.style.transition = "transform 1s ease";
         setRotation(newRotation);
+
   };
 
+       
   return (
     <>
-      <div className="card" id="card-section"
-           ref={catRef} onClick={() => rotate(catRef, rotationCat, setRotationCat)}>
+      <div className="card" id="card-section" 
+           ref={catRef}  onClick={() => rotate(catRef, Catsus, setRotationCat)}>
         <img className="card-image" src={catImage} alt="Cat Profile Picture" />
         <h2><span className="text-cat">Silly Cat</span></h2>
         <p>Cuddly, playful, curious, independent, affectionate.</p>
       </div>
 
       <div className="dog-card"
-           ref={dogRef} onClick={() => rotate(dogRef, rotationDog, setRotationDog)}>
+           ref={dogRef} onClick={() => rotate(dogRef, Dogsus, setRotationDog)}>
         <img className="dog-image" src={dogImage} alt="Dog Profile Picture" />
         <h2><span className="text-dog">Cute Dog</span></h2>
         <p>Independent, confident, timid, laidback, affectionate, or adaptable.</p>
@@ -53,12 +58,19 @@ function Cardss () {
       </div>
 
       <div className="panda-card"
-           ref={pandaRef} onClick={() => rotate(pandaRef, rotationPanda, setRotationPanda)}>
+           ref={pandaRef} onClick={() => rotate(pandaRef, Pandasus, setRotationPanda)}>
         <img className="panda-image" src={pandaImage} alt="Panda Profile Picture" />
         <h2><span className="text-panda">Cute Panda</span></h2>
         <p>Big, black-and-white bears with round faces and chubby bodies.</p>
       </div>
   
+
+      <div className="hamster-card"
+         ref={hamsterRef} onClick={() => rotate(hamsterRef,Hmastersus,setRotationHamster)}>   
+        <img className="hamster-image" src = {hamstersu} alt = "Hasmter Profile Picture" />
+        <h2><span className="text-hamster">Adorable Hamster</span></h2>
+        <p>Distinguishing large cheek pouches, short tails, and thick fur. </p>
+      </div>
 
 
 

@@ -21,7 +21,7 @@ function Header({ ClickmoHome}) {
                document.getElementById('about-section').scrollIntoView
                ({behavior:"smooth",block:"start"});}}>About</a></li>
 
-            <li><a href="" id = "service-click"> Services</a></li>
+            <li><a href="#" id = "service-click"> Services</a></li>
             <li><a href="#">Contact</a></li>
 
           </ul>
