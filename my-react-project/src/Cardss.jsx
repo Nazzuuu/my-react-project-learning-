@@ -6,6 +6,7 @@ import catdogss from './assets/catdogs.jpg'
 import hamstersu from './assets/hamster.jpg'
 
 
+
 function Cardss () {
 
         const currentApperance = useRef(null);
@@ -15,6 +16,7 @@ function Cardss () {
         orig.style.transform = "scale(1)";  
         orig.style.transition = "transform 0.6s ease"; 
         orig.style.boxShadow = "none";
+        
  }
         const currentPosition = useRef(null);
         const [rotation, setRotation] = useState(0);
@@ -42,7 +44,7 @@ function Cardss () {
        
   return (
     <>
-      <div className="card" id="card-section" 
+      <div className="card" id="card-section"
            ref={catRef}  onClick={() => rotate(catRef, Catsus, setRotationCat)}>
         <img className="card-image" src={catImage} alt="Cat Profile Picture" />
         <h2><span className="text-cat">Silly Cat</span></h2>

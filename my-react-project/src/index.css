@@ -1,6 +1,10 @@
 body {
   margin: 0;
-
+  background-image: linear-gradient(rgba(189, 169, 169, 0.5), rgba(121, 119, 119, 0.5)), url('assets/petss.jpg');
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-attachment: fixed;
+  
 }
 .card {
   border: 1px solid hsla(0, 0%, 30%, 0.877);
@@ -17,6 +21,7 @@ body {
   transform-style: preserve-3d;
   perspective: 1000px;
 
+  /* haha */
 }
 
 .card:hover {
@@ -236,7 +241,8 @@ a:focus {
 }
 
 .underline {
-  margin-top: 85%;
+  margin: 0;
+  
 }
 
 .logo-image {
@@ -267,6 +273,7 @@ a:focus {
   padding: 18px;
   color: white;
   margin-top: 0;
+  margin-bottom: 50%;
   scroll-margin-top: 86px;
 
 
@@ -328,3 +335,15 @@ a:focus {
 
 }
 
+.footer-color {
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+ 
+}
+
+footer {
+  background-color: rgba(134, 124, 124, 0.629);
+  padding: 12px;
+  margin: 0;
+}

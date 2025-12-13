@@ -3,7 +3,7 @@ function Footer () {
 
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} My Project</p>
+            <span className="footer-color">&copy; {new Date().getFullYear()} My Project</span>
         </footer>
     );
 }
